@@ -5,7 +5,7 @@ function BrandExample() {
   return (
       <Navbar bg="light">
         <Container>
-          <Navbar.Brand>Brand text</Navbar.Brand>
+          <Navbar.Brand>Landing Page Demo</Navbar.Brand>
         </Container>
       </Navbar>
   );

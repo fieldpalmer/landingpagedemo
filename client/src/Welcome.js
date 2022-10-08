@@ -6,7 +6,7 @@ import Signup from './Signup';
 
 const Welcome = () => {
     return (
-        <Container>
+        <Container className="mt-4">
             <Row>
                 <Col>
                     <h1>Hello, welcome to our landing page</h1>
@@ -15,7 +15,7 @@ const Welcome = () => {
             <hr />
             <Row>
                 <Col>
-                    <h2>Our team and product is already trusted by a bunch of people. Give us a chance!</h2>
+                    <h5>Our team and product is already trusted by a bunch of people. Give us a chance!</h5>
                 </Col>
             </Row>
             <Row>
