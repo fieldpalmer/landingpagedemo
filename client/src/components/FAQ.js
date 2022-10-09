@@ -7,7 +7,7 @@ const FAQ = () => {
             <div className='col'>
                <div className='accordion accordion-flush' id='accordionFlushExample'>
                   <div className='accordion-item'>
-                     <h2 className='accordion-header' id='flush-headingOne'>
+                     <div className='accordion-header' id='flush-headingOne'>
                         <button
                            className='accordion-button collapsed'
                            type='button'
@@ -16,9 +16,9 @@ const FAQ = () => {
                            aria-expanded='false'
                            aria-controls='flush-collapseOne'
                         >
-                           Question #1
+                           <h3>Question #1</h3>
                         </button>
-                     </h2>
+                     </div>
                      <div
                         id='flush-collapseOne'
                         className='accordion-collapse collapse'
@@ -33,7 +33,7 @@ const FAQ = () => {
                      </div>
                   </div>
                   <div className='accordion-item'>
-                     <h2 className='accordion-header' id='flush-headingTwo'>
+                     <div className='accordion-header' id='flush-headingTwo'>
                         <button
                            className='accordion-button collapsed'
                            type='button'
@@ -42,9 +42,9 @@ const FAQ = () => {
                            aria-expanded='false'
                            aria-controls='flush-collapseTwo'
                         >
-                           Question #2
+                           <h3>Question #2</h3>
                         </button>
-                     </h2>
+                     </div>
                      <div
                         id='flush-collapseTwo'
                         className='accordion-collapse collapse'
@@ -59,7 +59,7 @@ const FAQ = () => {
                      </div>
                   </div>
                   <div className='accordion-item'>
-                     <h2 className='accordion-header' id='flush-headingThree'>
+                     <div className='accordion-header' id='flush-headingThree'>
                         <button
                            className='accordion-button collapsed'
                            type='button'
@@ -68,9 +68,9 @@ const FAQ = () => {
                            aria-expanded='false'
                            aria-controls='flush-collapseThree'
                         >
-                           Question #3
+                           <h3>Question #3</h3>
                         </button>
-                     </h2>
+                     </div>
                      <div
                         id='flush-collapseThree'
                         className='accordion-collapse collapse'

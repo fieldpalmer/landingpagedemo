@@ -1,4 +1,7 @@
 import React from 'react';
+import Testimonial1 from '../images/testimonial1.jpg';
+import Testimonial2 from '../images/testimonial2.jpg';
+import Testimonial3 from '../images/testimonial3.jpg';
 
 const Testimonials = () => {
    return (
@@ -30,33 +33,21 @@ const Testimonials = () => {
                   </div>
                   <div className='carousel-inner'>
                      <div className='carousel-item active'>
-                        <img
-                           src='https://via.placeholder.com/150x72'
-                           className='d-block w-100'
-                           alt='...'
-                        />
+                        <img src={Testimonial1} className='d-block w-100' alt='...' />
                         <div className='carousel-caption d-none d-md-block'>
                            <h5>First slide label</h5>
                            <p>Some representative placeholder content for the first slide.</p>
                         </div>
                      </div>
                      <div className='carousel-item'>
-                        <img
-                           src='https://via.placeholder.com/150x72'
-                           className='d-block w-100'
-                           alt='...'
-                        />
+                        <img src={Testimonial2} className='d-block w-100' alt='...' />
                         <div className='carousel-caption d-none d-md-block'>
                            <h5>Second slide label</h5>
                            <p>Some representative placeholder content for the second slide.</p>
                         </div>
                      </div>
                      <div className='carousel-item'>
-                        <img
-                           src='https://via.placeholder.com/150x72'
-                           className='d-block w-100'
-                           alt='...'
-                        />
+                        <img src={Testimonial3} className='d-block w-100' alt='...' />
                         <div className='carousel-caption d-none d-md-block'>
                            <h5>Third slide label</h5>
                            <p>Some representative placeholder content for the third slide.</p>

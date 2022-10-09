@@ -7,6 +7,7 @@ import Display from './components/Display';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import Signup from './components/Signup';
 
 function App() {
    return (
@@ -14,11 +15,11 @@ function App() {
          <Navbar />
          <Welcome />
          <Display />
-         <Showoff />
          <Testimonials />
+         <Showoff />
+         <Signup />
          {/* sign up */}
          <FAQ />
-         {/* footer w/ TOS and Privacy Policy */}
          <Footer />
       </Container>
    );

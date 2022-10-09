@@ -1,5 +1,6 @@
 import React from 'react';
-import WebGraphic from '../images/web-flow-sample.jpg';
+// import WebGraphic from '../images/web-flow-sample.jpg';
+import WebGraphic from '../images/laptop_setup.png';
 
 const Display = () => {
    return (
