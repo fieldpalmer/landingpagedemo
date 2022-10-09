@@ -1,13 +1,15 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
 import WebGraphic from '../images/web-flow-sample.jpg';
 
 const Display = () => {
    return (
-      <Container className='mb-4'>
-         <Image fluid src={WebGraphic} />
-      </Container>
+      <div className='container mb-4'>
+         <div className='row'>
+            <div className='col'>
+               <img className='fluid' alt='product-demo' src={WebGraphic} />
+            </div>
+         </div>
+      </div>
    );
 };
 
